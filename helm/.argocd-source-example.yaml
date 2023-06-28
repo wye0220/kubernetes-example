@@ -1,0 +1,14 @@
+helm:
+  parameters:
+  - name: frontend.image
+    value: yewen/frontend
+    forcestring: true
+  - name: frontend.tag
+    value: "2682590"
+    forcestring: true
+  - name: backend.image
+    value: yewen/backend
+    forcestring: true
+  - name: backend.tag
+    value: "2682590"
+    forcestring: true

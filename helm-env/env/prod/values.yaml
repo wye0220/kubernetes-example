@@ -1,0 +1,3 @@
+frontend:
+  image: yewen/frontend
+  tag: latest-env
