@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react-frontend
-        image: yewen/frontend:latest
+        image: yewen/frontend:main-18d3f2a
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
