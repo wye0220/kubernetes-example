@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-backend
-        image: yewen/backend:latest
+        image: yewen/backend:main-18d3f2a
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
